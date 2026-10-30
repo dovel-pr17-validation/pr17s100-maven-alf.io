@@ -1,0 +1,20 @@
+{
+  "name": "alfio-website",
+  "version": "0.0.1",
+  "description": "The alf.io website, built with Hugo and the Docsy theme.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfio-event/alf.io.git",
+    "directory": "website"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "7.3.1",
+    "bootstrap": "5.3.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.6.1",
+    "postcss-cli": "12.0.0"
+  }
+}

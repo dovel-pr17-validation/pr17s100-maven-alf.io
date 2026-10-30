@@ -1,0 +1,47 @@
+/*
+
+Override variables from the theme here.
+
+*/
+$td-enable-google-fonts: true;
+$td-google-font-name: "Source Sans Pro";
+$td-google-font-family: "Source+Sans+Pro:300,300i,400,400i,700,700i";
+
+// Theme colors
+
+$primary: #ff8812;
+
+$secondary:     #6c757d;
+$success:       #28a745;
+$info:          #17a2b8;
+$warning:       #ffc107;
+$danger:        #dc3545;
+$light:         #f8f9fa;
+$dark:          #343a40;
+
+// links stay blue, as with the previous Docsy version
+$link-color: #3176d9;
+
+// orange navbar, as with the previous Docsy version (see also params.ui.navbar_theme)
+// the opacity variable lets the navbar turn transparent over the cover image
+$td-navbar-bg-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity));
+
+// Bootstrap 4 look, as with the previous Docsy version:
+// gradients and shadows on buttons
+$enable-gradients: true;
+$enable-shadows: true;
+// rounded buttons
+$btn-border-radius: 1rem;
+$btn-border-radius-sm: 1rem;
+$btn-border-radius-lg: 2rem;
+// white text on primary (orange) and success (green) backgrounds. Bootstrap 5 requires 4.5:1 and would switch to black
+$min-contrast-ratio: 2.3;
+// no wider container on xxl screens: the xl width applies from 1200px up
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px
+);
+// Bootstrap 4 column gutter
+$grid-gutter-width: 30px;
